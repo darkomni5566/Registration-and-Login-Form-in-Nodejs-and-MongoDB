@@ -1,7 +1,7 @@
 version: '3'
 services:
  node-login:
-  image: demomaster5566/node-login:v1
+  image: demomaster5566/node-login:${env.BUILD_NUMBER}
   ports:
     - 4200:3000
  mongodb:
